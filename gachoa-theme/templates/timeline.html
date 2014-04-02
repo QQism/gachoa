@@ -1,0 +1,31 @@
+<div class="timeline">
+  <ul class="posts">
+  {% for article in articles %}
+  <li class="post">
+    <!-- <div class="date"><p>{{article.date|strftime('%d %B %Y')}}</p></div> -->
+    <h3 class="title"><a href="{{ article.url }}"><p>{{ article.title|title }}</p></a></h3>
+    <a class='snippet' href="{{ article.url }}">
+      {% if article.snippet %}
+      {{ article.snippet }}
+      {% else %}
+      {{ article.content|truncate(250, False) }}
+      {% endif %}
+    </a>
+    {% if article.tags|length %}
+    <ul class='meta'>
+      <li>
+        With
+        {% for tag in article.tags %}<a class='tag' href="{{SITEURL}}/{{tag.url}}">{{tag}}</a>{% if not loop.last %} / {% endif %}{% endfor %}
+      </li>
+    </ul>
+    {% else %}
+    <ul class='meta'>
+      <li>
+        In <a class='category' href="{{SITEURL}}/{{article.category.url}}">{{article.category}}</a>
+      </li>
+    </ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+  </ul>
+</div>
