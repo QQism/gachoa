@@ -1,0 +1,30 @@
+.site-header {
+  .separator {
+    min-height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 70%;
+    border-top: 1px solid #DEDEDC;
+  }
+  .nav {
+    padding: 0;
+    text-align: center;
+    font-size: 12pt;
+    letter-spacing: .2em;
+    ul {
+      padding: 0;
+      margin-bottom: 0;
+      list-style: none;
+      li {
+        margin: 2em;
+        display: inline;
+        a {
+          &:active, &:hover {
+            color: #D6D6D5;
+          }
+        }
+      }
+    }
+  }
+}
