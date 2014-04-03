@@ -5,4 +5,98 @@
   .main-navigation {
     padding-left: 0;
   }
+
+  ul {
+    list-style: none;
+    text-align:center;
+
+    li.button {
+      display: block;
+      background-repeat: no-repeat;
+      background-size: auto auto;
+      background-image: url('../img/main_navigation/short-button.png');
+      width: 127px;
+      height: 75px;
+      line-height: 115px;
+      vertical-align: middle;
+      overflow: hidden;
+      background-position: top 0%;
+      left: 28px;
+      position: absolute;
+      color: #E34F26;
+
+      &.item1 {
+        $top: 50px;
+        top: $top;
+        left: 30px;
+        width: 121px;
+        height: 112px;
+        background-image: url('../img/main_navigation/high-button.png');
+        line-height: 175px;
+        &:hover {
+          top: $top - 2px;
+        }
+      }
+
+      $item-up: 2px;
+      $item-diff: 59px;
+      $item2-top: 138px;
+      $item3-top: $item2-top + 1 * $item-diff;
+      $item4-top: $item2-top + 2 * $item-diff;
+      $item5-top: $item2-top + 3 * $item-diff;
+      $item6-top: $item2-top + 4 * $item-diff;
+
+      &.item2 {
+        top: $item2-top;
+        &:hover {
+          top: $item2-top - $item-up;
+        }
+      }
+
+      // + 59px
+      &.item3 {
+        top: $item3-top;
+        &:hover {
+          top: $item3-top - $item-up;
+        }
+      }
+
+      // + 59px
+      &.item4 {
+        top: $item4-top;
+        &:hover {
+          top: $item4-top - $item-up;
+        }
+      }
+
+      &.item5 {
+        top: $item5-top;
+        &:hover {
+          top: $item5-top - $item-up;
+        }
+      }
+
+      &.item6 {
+        top: $item6-top;
+        &:hover {
+          top: $item6-top - $item-up;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        color: #000000;
+      }
+
+      a {
+        font-family: 'GulyesaScript';
+        font-size: 15pt;
+        color: #E34F26;
+        &:hover {
+          color: #000000;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
