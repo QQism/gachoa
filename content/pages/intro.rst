@@ -3,4 +3,4 @@ Intro
 
 :template: landing_page
 
-On Update...
+Intended to be blank
