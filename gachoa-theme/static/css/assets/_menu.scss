@@ -83,19 +83,18 @@
         }
       }
 
-      &:hover {
+      &:hover, &.selected {
         cursor: pointer;
-        color: #000000;
+        a {
+          color: #000000;
+          cursor: pointer;
+        }
       }
 
       a {
         font-family: 'GulyesaScript';
         font-size: 15pt;
         color: #E34F26;
-        &:hover {
-          color: #000000;
-          cursor: pointer;
-        }
       }
     }
   }
