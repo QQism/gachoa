@@ -83,20 +83,69 @@
         }
       }
 
-      &:hover {
+      &:hover, &.selected {
         cursor: pointer;
-        color: #000000;
+        a {
+          color: #000000;
+          cursor: pointer;
+        }
       }
 
       a {
         font-family: 'GulyesaScript';
         font-size: 15pt;
         color: #E34F26;
-        &:hover {
-          color: #000000;
-          cursor: pointer;
+      }
+    }
+  }
+
+  .menu-list {
+    margin-left: 60px;
+    margin-top: 117px;
+    font-size: 8.5pt;
+    table {
+      font-family: 'Calibri';
+      margin-bottom: 9px;
+      width: 210px;
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: right;
+      }
+      thead {
+        font-family: 'GulyesaScript';
+        font-size: 15pt;
+        color: #E34F26;
+      }
+
+      tbody {
+        line-height: 1.28;
+        tr {
+          &:hover {
+            a {
+              color: #E34F26;
+            }
+          }
         }
       }
+    }
+  }
+
+  .disk-frame {
+    margin-top: 140px;
+    margin-left: 30px;
+    width: 220px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../img/frame-1.png');
+    img {
+      width: 180px;
+      height: 180px;
+      margin: 23px 23px;
     }
   }
 }
