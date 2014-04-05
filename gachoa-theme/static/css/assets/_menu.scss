@@ -146,6 +146,10 @@
       width: 180px;
       height: 180px;
       margin: 23px 23px;
+      &.waiting {
+        display: none;
+        //background: url('../img/processing.gif');
+      }
     }
   }
 }
