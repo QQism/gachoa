@@ -2,15 +2,7 @@
 {% block content %}
 <div class="row menu">
   <div class="main-navigation col-md-2">
-    <img src="../theme/img/main_navigation/logo.png" alt="Logo"/>
-    <ul >
-      <li class="button item1"><a>Giới Thiệu</a></li><!--
-      --><li class="button item2"><a>Góc Hoa</a></li><!--
-      --><li class="button item3 selected"><a>Thực Đơn</a></li><!--
-      --><li class="button item4"><a>Sự Kiện</a></li><!--
-      --><li class="button item5"><a>Ưu  Đãi</a></li><!--
-      --><li class="button item6"><a>Liên Hệ</a></li>
-    </ul>
+    {{ navigation.menu("thuc-don") }}
   </div>
   <div class="col-md-3 menu-list">
     <table class="mon-nuoc menu-table">

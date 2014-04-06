@@ -1,16 +1,11 @@
-<nav class="pull-right">
-  <ul class="nav nav-list">
-    <li>
-    <a href="/" class="text-right "><h3>Blog</h3></a>
-    </li>
-    <li>
-    <a href="/quotes" class="text-right"><h3>Quotes</h3></a>
-    </li>
-    <li>
-    <a href="#" class="text-right"><h3>Projects</h3></a>
-    </li>
-    <li>
-    <a href="/about" class="text-right"><h3>About me</h3></a>
-    </li>
-  </ul>
-</nav>
+{% macro menu(item) -%}
+<img src="../theme/img/main_navigation/logo.png" alt="Logo"/>
+<ul >
+  <li class="button item1 {{ 'selected' if item == 'gioi-thieu' }}"><a>Giới Thiệu</a></li><!--
+  --><li class="button item2 {{ 'selected' if item == 'goc-hoa' }}"><a>Góc Hoa</a></li><!--
+  --><li class="button item3 {{ 'selected' if item == 'thuc-don' }}"><a>Thực Đơn</a></li><!--
+  --><li class="button item4 {{ 'selected' if item == 'su-kien' }}"><a>Sự Kiện</a></li><!--
+  --><li class="button item5 {{ 'selected' if item == 'uu-dai' }}"><a>Ưu Đãi</a></li><!--
+  --><li class="button item6 {{ 'selected' if item == 'lien-he' }}"><a>Liên Hệ</a></li>
+</ul>
+{%- endmacro %}
