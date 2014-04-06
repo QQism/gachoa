@@ -1,11 +1,13 @@
 {% macro menu(item) -%}
-<img src="../theme/img/main_navigation/logo.png" alt="Logo"/>
-<ul >
-  <li class="button item1 {{ 'selected' if item == 'gioi-thieu' }}"><a>Giới Thiệu</a></li><!--
-  --><li class="button item2 {{ 'selected' if item == 'goc-hoa' }}"><a>Góc Hoa</a></li><!--
-  --><li class="button item3 {{ 'selected' if item == 'thuc-don' }}"><a>Thực Đơn</a></li><!--
-  --><li class="button item4 {{ 'selected' if item == 'su-kien' }}"><a>Sự Kiện</a></li><!--
-  --><li class="button item5 {{ 'selected' if item == 'uu-dai' }}"><a>Ưu Đãi</a></li><!--
-  --><li class="button item6 {{ 'selected' if item == 'lien-he' }}"><a>Liên Hệ</a></li>
-</ul>
+<div class="main-navigation col-md-2">
+  <img src="../theme/img/main_navigation/logo.png" alt="Logo"/>
+  <ul >
+    <li class="button item1 {{ 'selected' if item == 'gioi-thieu' }}"><a href="../gioi-thieu">Giới Thiệu</a></li><!--
+    --><li class="button item2 {{ 'selected' if item == 'goc-hoa' }}"><a href="../goc-hoa">Góc Hoa</a></li><!--
+    --><li class="button item3 {{ 'selected' if item == 'thuc-don' }}"><a href="../menu">Thực Đơn</a></li><!--
+    --><li class="button item4 {{ 'selected' if item == 'su-kien' }}"><a href="../su-kien">Sự Kiện</a></li><!--
+    --><li class="button item5 {{ 'selected' if item == 'uu-dai' }}"><a href="../uu-dai">Ưu Đãi</a></li><!--
+    --><li class="button item6 {{ 'selected' if item == 'lien-he' }}"><a href="../lien-he">Liên Hệ</a></li>
+  </ul>
+</div>
 {%- endmacro %}
