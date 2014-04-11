@@ -19,6 +19,7 @@
 
   $('.menu-table > tbody > tr').mouseleave(function(e) {
       $('img.waiting').css('display', 'none')
+      $('img.disk').css('display', 'inline')
   })
 
 })(jQuery)
