@@ -34,4 +34,17 @@ body {
   .strike {
     text-decoration: line-through;
   }
+
+  span.title {
+    font-family: 'GulyesaScript';
+    font-size: 15pt;
+    color: #E34F26;
+  }
+
+  p.text {
+    font-family: 'Calibri';
+    font-size: 9pt;
+    word-wrap: break-word;
+    line-height: 1.4em;
+  }
 }
