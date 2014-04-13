@@ -1,14 +1,15 @@
 body {
   .container {
     font-family: 'Calibri_Light';
-    max-width: 1000px;
-    max-height: 550px;
+    max-width: 1030px;
+    max-height: 768px;
     font-weight: 400;
     font-size: 15pt;
     .row {
       max-width: 1000px;
       height: 550px;
       margin: 0em 0em;
+      padding: 0px 0px;
       .main {
         width: 100%;
         height: 100%;

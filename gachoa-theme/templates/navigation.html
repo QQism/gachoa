@@ -11,3 +11,16 @@
   </ul>
 </div>
 {%- endmacro %}
+
+{% macro submenu(item) -%}
+<div class="submenu">
+  <ul>
+    <li class="button item1 {{ 'selected' if item == 'gioi-thieu' }}"><a href="../gioi-thieu">Kỷ niệm</a></li>
+  </ul>
+  <ul class="right">
+    <li class="button item2 {{ 'selected' if item == 'gallery' }} "><a href="../">Gallery</a></li><!--
+    --><li class="button item3 {{ 'selected' if item == 'tang1' }}"><a href="../gioi-thieu">Tầng 1</a></li><!--
+    --><li class="button item4 {{ 'selected' if item == 'tang2' }}"><a href="../gioi-thieu">Tầng 2</a></li>
+  </ul>
+</div>
+{%- endmacro %}
