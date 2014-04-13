@@ -3,7 +3,37 @@
 <div class="row gallery intro main-gallery">
   {{ navigation.menu("gioi-thieu") }}
   {{ navigation.submenu("tang1") }}
-  <div class="col-md-6 intro-body">
+  <div class="col-md-6 gallery-body">
+    <div id="carousel-gallery" class="carousel slide" data-ride="carousel" data-interval="">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="left small">
+            <div class="image-block">
+            </div>
+            <div class="image-block">
+            </div>
+          </div>
+          <div class="middle big">
+          </div>
+          <div class="right small">
+          </div>
+        </div>
+        <div class="item">
+          <div class="left big">
+          </div>
+          <div class="middle small">
+          </div>
+          <div class="right big">
+          </div>
+        </div>
+      </div>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-gallery" data-slide-to="1"></li>
+      </ol>
+    </div>
   </div>
 </div>
 {% endblock %}
