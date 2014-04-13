@@ -1,0 +1,35 @@
+.row.gallery {
+  .col-md-6.intro-body {
+    width: 66%;
+  }
+
+  #carousel-gallery {
+    margin-top: 90px;
+    margin-left: 15px;
+    height: 423px;
+
+    .left {
+      &.small {
+      }
+
+      &.big {
+      }
+    }
+
+    .middle {
+      &.small {
+      }
+
+      &.big {
+      }
+    }
+
+    .right {
+      &.small {
+      }
+
+      &.big {
+      }
+    }
+  }
+}

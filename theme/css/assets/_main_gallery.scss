@@ -1,2 +1,49 @@
 .row.gallery {
+  background-image: url('../img/gallery/background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  .col-md-6.gallery-body {
+    width: 66%;
+
+    .gallery-content {
+      margin-top: 90px;
+      margin-left: 15px;
+      height: 350px;
+      display: block;
+
+      .gallery-image {
+        display: inline-block;
+        width: 62%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url('../img/frame-1.png');
+        img.big {
+          display: block;
+          width: 85%;
+          height: 82%;
+          margin: 37px 30px;
+        }
+      }
+
+      .gallery-text {
+        float: right;
+        display: inline-block;
+        width: 34%;
+        height: 100%;
+        div.text-block {
+          padding-top: 16px;
+          display: block;
+          width: 100%;
+          .center {
+            text-align: center;
+            margin-bottom: 10px;
+            span.title {
+              font-size: 25pt;
+            }
+          }
+        }
+      }
+    }
+  }
 }

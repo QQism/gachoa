@@ -1,0 +1,19 @@
+.row {
+  .carousel-indicators {
+    li {
+      width: 12px;
+      height: 12px;
+      background-color: rgba(0, 0, 0, 1);
+      border: none;
+      margin: auto;
+    }
+
+    li.active {
+      border: none;
+      margin: auto;
+      width: 12px;
+      height: 12px;
+      background-color: #E34F26;
+    }
+  }
+}
