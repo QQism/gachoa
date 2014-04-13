@@ -1,8 +1,34 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="row gallery intro main-gallery">
-    {{ navigation.menu("gioi-thieu") }}
-  <div class="col-md-6 intro">
+  {{ navigation.menu("gioi-thieu") }}
+  {{ navigation.submenu("gallery") }}
+  <div class="col-md-6 gallery-body">
+    <div class="gallery-content">
+      <div class="gallery-image">
+        <img class="big flowers" src="../theme/img/gallery/main-flower.jpg"/>
+      </div>
+      <div class="gallery-text">
+        <div class="text-block">
+          <div class="center">
+            <span class="title">Gallery</span>
+          </div>
+          <p class="text">
+            Hãy cùng khám phá từng không gian
+            của Gác hoa với nội thất được thiết kế
+            vô cùng độc đáo và mang đậm phong
+            cách vintage của Châu Âu. Chắc hẳn bạn
+            sẽ bị mê hoặc bởi những chiếc tủ sách
+            dễ thương, những chú gấu bông đáng
+            yêu, những món đồ decor hết sức tinh
+            tế. Cùng với một không gian ngập tràn
+            các loài hoa, Gác hoa cà phê sẽ làm bạn
+            không nỡ rời xa khi đã lỡ đặt chân ghé
+            đến nơi này một lần.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
