@@ -1,13 +1,13 @@
 .submenu {
   position: absolute;
-  top: -10px;
-  left: 320px;
+  top: -3px;
+  left: 0px;
   z-index: 2;
 
   ul.right {
     li {
       //display: block;
-      left: 150px;
+      left: 145px;
       &.item2 {
         top: -3px;
         z-index:3;
@@ -39,6 +39,10 @@
   ul {
     list-style: none;
     text-align:center;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+
 
     li.button {
       background-image: url('../img/main_navigation/short-button.png');
@@ -46,8 +50,8 @@
       width: 127px;
       height: 75px;
       line-height: 115px;
-      top: -3px;
       position: absolute;
+      //top: -3px;
       &:hover, &.selected {
         cursor: pointer;
         top: -6px;
@@ -58,7 +62,7 @@
       }
 
       &.item1 {
-        left: 30px;
+        left: 20px;
       }
 
       a {

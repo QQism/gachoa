@@ -285,13 +285,13 @@ body p.text {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\000031}}
 .submenu {
   position: absolute;
-  top: -10px;
-  left: 320px;
+  top: -3px;
+  left: 0px;
   z-index: 2;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\000038}}
 .submenu ul.right li {
-  left: 150px;
+  left: 145px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000311}}
 .submenu ul.right li.item2 {
@@ -326,32 +326,34 @@ body p.text {
 .submenu ul {
   list-style: none;
   text-align: center;
+  position: absolute;
+  top: -3px;
+  left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000347}}
 .submenu ul li.button {
   background-image: url("../img/main_navigation/short-button.png");
   display: inline-block;
   width: 127px;
   height: 75px;
   line-height: 115px;
-  top: -3px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000355}}
 .submenu ul li.button:hover, .submenu ul li.button.selected {
   cursor: pointer;
   top: -6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000358}}
 .submenu ul li.button:hover a, .submenu ul li.button.selected a {
   color: #000000;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000360}}
-.submenu ul li.button.item1 {
-  left: 30px;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000364}}
+.submenu ul li.button.item1 {
+  left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_submenu\.scss}line{font-family:\0000368}}
 .submenu ul li.button a {
   font-family: 'GulyesaScript';
   font-size: 15pt;
@@ -596,6 +598,13 @@ body p.text {
 .row.intro #carousel-intro .intro-content .intro-text div.text-block {
   display: block;
   width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\000031}}
+.row.flowers {
+  background-image: url("../img/flowers/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_main_gallery\.scss}line{font-family:\000031}}
