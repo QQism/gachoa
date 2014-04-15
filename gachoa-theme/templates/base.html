@@ -22,7 +22,6 @@
     <link rel="apple-touch-icon" sizes="114x114" href="{{SITEURL}}/theme/apple-touch-icon-iphone4.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="{{SITEURL}}/theme/apple-touch-icon-ipad3.png" />
 
-    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">-->
     {% assets filters="scss,cssmin", output="css/main.%(version)s.min.css", "css/main.scss", "css/bootstrap.min.css" %}
     <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
@@ -41,8 +40,7 @@
       </div> <!-- row -->
     </div> <!-- /container -->
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    {% assets filters="uglifyjs", output="js/main.%(version)s.min.js", "js/main.js" %}
+    {% assets filters="uglifyjs", output="js/main.%(version)s.min.js", "js/main.js", "js/jquery.min.js" %}
       <script src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
     {% endassets %}
     {% assets filters="uglifyjs", output="js/bootstrap.%(version)s.min.js", "js/bootstrap.min.js" %}
