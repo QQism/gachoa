@@ -60,48 +60,51 @@ body .container {
   font-family: 'Calibri_Light';
   max-width: 1030px;
   max-height: 768px;
+  min-width: 1000px;
   font-weight: 400;
   font-size: 15pt;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\000039}}
 body .container .row {
   max-width: 1000px;
+  min-width: 1000px;
   height: 550px;
   margin: 0em 0em;
   padding: 0px 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000315}}
 body .container .row .main {
   width: 100%;
   height: 100%;
+  min-width: 1000px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000321}}
 body .container a {
   text-decoration: none;
   color: #333332;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000325}}
 body .container h1, body .container h2, body .container h3, body .container h4, body .container h5, body .container h6 {
   font-family: 'Calibri_Light';
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000332}}
 body .overlay {
   position: absolute;
   left: 0;
   background: rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000337}}
 body .strike {
   text-decoration: line-through;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000341}}
 body span.title {
   font-family: 'GulyesaScript';
   font-size: 15pt;
   color: #E34F26;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000347}}
 body p.text {
   font-family: 'Calibri';
   font-size: 9pt;
@@ -143,43 +146,16 @@ body p.text {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\000031}}
 .footer {
-  font-weight: 300;
-  font-size: 13pt;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\000034}}
-.footer .separator {
-  min-height: 39px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  width: 70%;
-  border-top: 1px solid #DEDEDC;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\0000312}}
-.footer .footer-content {
+  position: absolute;
+  width: 100%;
+  top: 508px;
+  left: 0px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\0000314}}
-.footer .footer-content ul {
-  padding-left: 0;
-  margin: 0 auto;
-  max-width: 70%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\0000318}}
-.footer .footer-content ul li {
-  list-style: none;
-  display: inline;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\0000323}}
-.footer .footer-content div.recognition, .footer .footer-content div.license, .footer .footer-content div.copyright {
-  width: 100%;
-  display: block;
-  font-size: 8pt;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\0000329}}
-.footer .footer-content .contact-active ul, .footer .footer-content .contact-active li, .footer .footer-content .contact-active a {
-  background-color: #404040;
-  color: #FFFFFF;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_footer\.scss}line{font-family:\000037}}
+.footer span {
+  font-family: 'Calibri_Bold';
+  font-size: 7.0pt;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_navigation\.scss}line{font-family:\000031}}
@@ -512,15 +488,204 @@ body p.text {
   background-size: 100% 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\000032}}
-.row.gallery .col-md-6.intro-body {
-  width: 66%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\000031}}
+.row.gallery {
+  text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\000032}}
+.row.gallery .col-md-6.in-gallery {
+  width: 64%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\000038}}
+.row.gallery span.title {
+  position: absolute;
+  top: 102px;
+  font-size: 26pt;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000314}}
 .row.gallery #carousel-gallery {
-  margin-top: 90px;
+  margin-top: 170px;
   margin-left: 15px;
-  height: 423px;
+  height: 343px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000363}}
+.row.gallery #carousel-gallery .item {
+  height: 343px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000367}}
+.row.gallery #carousel-gallery .item .left {
+  display: inline-block;
+  height: 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000371}}
+.row.gallery #carousel-gallery .item .left.small {
+  width: 26.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000373}}
+.row.gallery #carousel-gallery .item .left.small .image-block {
+  display: block;
+  height: 35%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000327}}
+.row.gallery #carousel-gallery .item .left.small .image-block img {
+  display: block;
+  width: 89%;
+  height: 91%;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000335}}
+.row.gallery #carousel-gallery .item .left.small .image-block.bottom {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000339}}
+.row.gallery #carousel-gallery .item .left.small .image-block.long {
+  height: 33.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000341}}
+.row.gallery #carousel-gallery .item .left.small .image-block.long img {
+  margin: 0px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000378}}
+.row.gallery #carousel-gallery .item .left.big {
+  width: 27.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000380}}
+.row.gallery #carousel-gallery .item .left.big .image-block {
+  display: block;
+  height: 72%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000354}}
+.row.gallery #carousel-gallery .item .left.big .image-block img {
+  display: block;
+  width: 88%;
+  height: 96%;
+  margin: 0px 9px;
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000386}}
+.row.gallery #carousel-gallery .item .middle {
+  display: inline-block;
+  height: 100%;
+  float: left;
+  margin-left: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000391}}
+.row.gallery #carousel-gallery .item .middle.small {
+  width: 37%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000393}}
+.row.gallery #carousel-gallery .item .middle.small .image-block {
+  display: block;
+  height: 35%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000327}}
+.row.gallery #carousel-gallery .item .middle.small .image-block img {
+  display: block;
+  width: 89%;
+  height: 91%;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000335}}
+.row.gallery #carousel-gallery .item .middle.small .image-block.bottom {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000339}}
+.row.gallery #carousel-gallery .item .middle.small .image-block.long {
+  height: 33.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000341}}
+.row.gallery #carousel-gallery .item .middle.small .image-block.long img {
+  margin: 0px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000398}}
+.row.gallery #carousel-gallery .item .middle.big {
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\00003100}}
+.row.gallery #carousel-gallery .item .middle.big .image-block {
+  display: block;
+  height: 72%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000354}}
+.row.gallery #carousel-gallery .item .middle.big .image-block img {
+  display: block;
+  width: 88%;
+  height: 96%;
+  margin: 0px 9px;
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\00003106}}
+.row.gallery #carousel-gallery .item .right {
+  display: inline-block;
+  height: 100%;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\00003110}}
+.row.gallery #carousel-gallery .item .right.small {
+  width: 39%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\00003112}}
+.row.gallery #carousel-gallery .item .right.small .image-block {
+  display: block;
+  height: 35%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000327}}
+.row.gallery #carousel-gallery .item .right.small .image-block img {
+  display: block;
+  width: 89%;
+  height: 91%;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000335}}
+.row.gallery #carousel-gallery .item .right.small .image-block.bottom {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000339}}
+.row.gallery #carousel-gallery .item .right.small .image-block.long {
+  height: 33.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000341}}
+.row.gallery #carousel-gallery .item .right.small .image-block.long img {
+  margin: 0px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\00003117}}
+.row.gallery #carousel-gallery .item .right.big {
+  width: 26.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\00003119}}
+.row.gallery #carousel-gallery .item .right.big .image-block {
+  display: block;
+  height: 72%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\0000354}}
+.row.gallery #carousel-gallery .item .right.big .image-block img {
+  display: block;
+  width: 88%;
+  height: 96%;
+  margin: 0px 9px;
+  padding-top: 15px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_intro\.scss}line{font-family:\000031}}
@@ -575,16 +740,16 @@ body p.text {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_intro\.scss}line{font-family:\0000342}}
 .row.intro #carousel-intro .intro-content .intro-image .image-block img.small {
   display: inline-block;
-  width: 85%;
-  height: 82%;
-  margin: 18px 23px;
+  width: 87%;
+  height: 87%;
+  margin: 12px 23px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_intro\.scss}line{font-family:\0000349}}
 .row.intro #carousel-intro .intro-content .intro-image img.big {
   display: block;
   width: 85%;
-  height: 85%;
-  margin: 25px 20px;
+  height: 91%;
+  margin: 20px 18px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_intro\.scss}line{font-family:\0000357}}
 .row.intro #carousel-intro .intro-content .intro-text {
@@ -636,9 +801,9 @@ body p.text {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_main_gallery\.scss}line{font-family:\0000321}}
 .row.gallery .col-md-6.gallery-body .gallery-content .gallery-image img.big {
   display: block;
-  width: 85%;
-  height: 85%;
-  margin: 27px 30px;
+  width: 86%;
+  height: 89%;
+  margin: 19px 32px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_main_gallery\.scss}line{font-family:\0000329}}
 .row.gallery .col-md-6.gallery-body .gallery-content .gallery-text {

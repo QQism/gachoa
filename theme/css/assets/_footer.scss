@@ -1,35 +1,11 @@
 .footer {
-  font-weight: 300;
-  font-size: 13pt;
-  .separator {
-    min-height: 39px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    width: 70%;
-    border-top: 1px solid #DEDEDC;
-  }
-  .footer-content {
-    text-align: center;
-    ul {
-      padding-left: 0;
-      margin: 0 auto;
-      max-width: 70%;
-      li {
-        list-style: none;
-        display: inline;
-      }
-    }
-    div.recognition, div.license, div.copyright {
-      width: 100%;
-      display: block;
-      font-size: 8pt;
-    }
-    .contact-active {
-      ul, li, a {
-      background-color: #404040;
-      color: #FFFFFF;
-      }
-    }
+  position: absolute;
+  width: 100%;
+  top: 508px;
+  left: 0px;
+  text-align: center;
+  span {
+    font-family: 'Calibri_Bold';
+    font-size: 7.0pt;
   }
 }

@@ -1,34 +1,125 @@
 .row.gallery {
-  .col-md-6.intro-body {
-    width: 66%;
+  .col-md-6.in-gallery {
+    width: 64%;
+  }
+
+  text-align: center;
+
+  span.title {
+    position: absolute;
+    top: 102px;
+    font-size: 26pt;
   }
 
   #carousel-gallery {
-    margin-top: 90px;
+    $item-height: 343px;
+    margin-top: 170px;
     margin-left: 15px;
-    height: 423px;
+    height: $item-height;
 
-    .left {
-      &.small {
+    @mixin image-block-small($height:50%) {
+      display: block;
+      height: $height;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-image: url('../img/landscape-frame.png');
+
+      img {
+          display: block;
+          width: 89%;
+          height: 91%;
+          margin: 0px 10px;
+          padding-top: 10px;
       }
 
-      &.big {
+      &.bottom {
+        margin-top: 10px;
+      }
+
+      &.long {
+        height: $height * 0.95;
+        img {
+          margin: 0px 15px;
+        }
       }
     }
 
-    .middle {
-      &.small {
-      }
+    @mixin image-block-big($height:100%) {
+      display: block;
+      height: $height;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-image: url('../img/portrait-frame.png');
 
-      &.big {
+      img {
+          display: block;
+          width: 88%;
+          height: 96%;
+          margin: 0px 9px;
+          padding-top: 15px;
       }
     }
 
-    .right {
-      &.small {
+    .item {
+      height: $item-height;
+      $small-height: 35%;
+      $big-height: 72%;
+      .left {
+        display: inline-block;
+        height: 100%;
+        float: left;
+        &.small {
+          width: 26.5%;
+          .image-block {
+            @include image-block-small($small-height);
+          }
+        }
+
+        &.big {
+          width: 27.5%;
+          .image-block {
+            @include image-block-big($big-height);
+          }
+        }
       }
 
-      &.big {
+      .middle {
+        display: inline-block;
+        height: 100%;
+        float: left;
+        margin-left: 5%;
+        &.small {
+          width: 37%;
+          .image-block {
+            @include image-block-small($small-height);
+          }
+        }
+
+        &.big {
+          width: 25%;
+          .image-block {
+            @include image-block-big($big-height);
+          }
+        }
+      }
+
+      .right {
+        display: inline-block;
+        height: 100%;
+        float: right;
+        &.small {
+          width: 39%;
+          .image-block {
+            @include image-block-small($small-height);
+          }
+        }
+
+        &.big {
+          width: 26.5%;
+          .image-block {
+            @include image-block-big($big-height);
+          }
+        }
       }
     }
   }
