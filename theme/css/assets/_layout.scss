@@ -43,20 +43,28 @@ body {
     font-size: 15pt;
     color: #E34F26;
   }
+  span.special-text {
+    font-family: 'GulyesaScript';
+    color: #E34F26;
+  }
 
   p.text {
     font-family: 'Calibri';
     font-size: 9pt;
     word-wrap: break-word;
     line-height: 1.4em;
-    span.special-text {
-      font-family: 'GulyesaScript';
-      color: #E34F26;
-    }
   }
 
   .center {
     text-align: center;
     display: block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
   }
 }
