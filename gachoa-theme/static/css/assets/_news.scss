@@ -2,4 +2,56 @@
   background-image: url('../img/news/background.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
+  .col-md-6.news {
+    width: 66%;
+  }
+
+  .news-list {
+    margin-top: 95px;
+    width: 100%;
+    .news-entry {
+      $height: 130px;
+      display: block;
+      width: 100%;
+      height: $height;
+
+      &.bottom {
+        margin-top: 30px;
+
+        .news-content {
+          margin-top: -140px;
+        }
+      }
+      .news-content {
+        width: 60%;
+        float: right;
+        display: inline-block;
+        margin-top: 15px;
+        p.text {
+          margin-top: 10px;
+        }
+      }
+      .news-image {
+        width: 35%;
+        display: inline-block;
+        .image-block {
+          display: block;
+          height: $height * 0.96;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          background-image: url('../img/portrait-frame.png');
+          margin-top: 13%;
+
+          img {
+            display: block;
+            width: 91%;
+            height: 94%;
+            margin: 0px 9px;
+            padding-top: 9px;
+          }
+        }
+      }
+    }
+  }
 }
