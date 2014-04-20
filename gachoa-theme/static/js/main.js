@@ -73,4 +73,9 @@
       item4.css('display', 'none')
     }
   })
+
+  $('.item-clear').click(function() {
+    $('input').val('')
+    $('textarea').val('')
+  })
 })(jQuery)
