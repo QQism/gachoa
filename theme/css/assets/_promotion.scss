@@ -35,7 +35,7 @@
       .content-body {
         height: 60px;
         .left {
-          width: 22.0%;
+          width: 23%;
           .inner-left {
             float: left;
             height: 100%;
@@ -51,13 +51,13 @@
             display: inline-block;
             margin-top: 15px;
             span.special-text {
-              font-size: 10pt;
+              font-size: 11pt;
               display: block;
               line-height: 1.2em;
             }
           }
           span.title {
-            font-size: 26pt;
+            font-size: 28pt;
             line-height: 1.9em;
           }
         }
@@ -66,16 +66,16 @@
           width: 73%;
           margin-top: 15px;
             span.special-text {
-              font-size: 10pt;
+              font-size: 11pt;
             }
         }
       }
 
       .content-footer {
-        margin-top: 5px;
+        margin-top: 11px;
         width: 100%;
         span.special-text {
-          font-size: 10pt;
+          font-size: 11pt;
         }
       }
     }

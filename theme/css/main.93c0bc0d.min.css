@@ -505,6 +505,169 @@ body .right {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\000036}}
+.row.contact .col-md-6.contact {
+  padding-top: 110px;
+  width: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000311}}
+.row.contact .info {
+  display: inline-block;
+  width: 42%;
+  height: 310px;
+  margin-left: 30px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000317}}
+.row.contact .info .image-block {
+  display: block;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000323}}
+.row.contact .info .image-block span.title {
+  line-height: 2.7em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000326}}
+.row.contact .info .image-block p.text {
+  margin-left: 26px;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000329}}
+.row.contact .info .image-block p.text span.special-text {
+  font-size: 11pt;
+  line-height: 1.3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000333}}
+.row.contact .info .image-block p.text span.title {
+  line-height: 1.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000340}}
+.row.contact .labels {
+  display: inline-block;
+  width: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000343}}
+.row.contact .labels span.title {
+  display: block;
+  position: absolute;
+  left: 335px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000348}}
+.row.contact .labels span.title.email {
+  top: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000352}}
+.row.contact .labels span.title.topic {
+  top: 190px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000356}}
+.row.contact .labels span.title.text {
+  top: 240px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000362}}
+.row.contact .feedback {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin-top: 18px;
+  font-family: 'Calibri_Light';
+  font-size: 12pt;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000370}}
+.row.contact .feedback .image-block {
+  margin-top: 5px;
+  display: block;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+  padding-top: 5px;
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000380}}
+.row.contact .feedback .image-block.big {
+  height: 134px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000384}}
+.row.contact .feedback .image-block input, .row.contact .feedback .image-block textarea {
+  background-color: transparent;
+  border: none;
+  border-color: transparent;
+  width: 210px;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\0000392}}
+.row.contact .feedback .image-block .oval {
+  z-index: 1;
+  position: absolute;
+  width: 215px;
+  height: 30px;
+  margin: 0 auto;
+  background: white;
+  -moz-border-radius: 30px / 20px;
+  -webkit-border-radius: 30px / 20px;
+  border-radius: 30px / 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003103}}
+.row.contact .feedback .image-block .oval.big {
+  height: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003108}}
+.row.contact .feedback .image-block textarea {
+  height: 115px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003112}}
+.row.contact .feedback .image-block textarea:focus, .row.contact .feedback .image-block input:focus {
+  outline: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003118}}
+.row.contact .feedback .buttons ul {
+  font-family: 'GulyesaScript';
+  list-style: none;
+  text-align: center;
+  left: 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003123}}
+.row.contact .feedback .buttons ul li.button {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-image: url("../img/main_navigation/short-button.png");
+  width: 127px;
+  height: 75px;
+  line-height: 115px;
+  overflow: hidden;
+  background-position: top 0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003134}}
+.row.contact .feedback .buttons ul li.button.item {
+  position: absolute;
+  top: 315px;
+  width: 121px;
+  height: 112px;
+  background-image: url("../img/main_navigation/high-button.png");
+  line-height: 175px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003142}}
+.row.contact .feedback .buttons ul li.button.item.item-clear {
+  left: 395px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003146}}
+.row.contact .feedback .buttons ul li.button.item.item-submit {
+  left: 510px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003150}}
+.row.contact .feedback .buttons ul li.button.item:hover {
+  top: 313px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_contact\.scss}line{font-family:\00003154}}
+.row.contact .feedback .buttons ul li.button.item a {
+  font-size: 16pt;
+  color: #E34F26;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_gallery_1st\.scss}line{font-family:\000031}}
 .row.gallery {
@@ -1190,7 +1353,7 @@ body .right {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000337}}
 .row.promotion #carousel-promotion .content .content-body .left {
-  width: 22.0%;
+  width: 23%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000339}}
 .row.promotion #carousel-promotion .content .content-body .left .inner-left {
@@ -1211,13 +1374,13 @@ body .right {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000353}}
 .row.promotion #carousel-promotion .content .content-body .left .inner-right span.special-text {
-  font-size: 10pt;
+  font-size: 11pt;
   display: block;
   line-height: 1.2em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000359}}
 .row.promotion #carousel-promotion .content .content-body .left span.title {
-  font-size: 26pt;
+  font-size: 28pt;
   line-height: 1.9em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000364}}
@@ -1228,16 +1391,16 @@ body .right {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000368}}
 .row.promotion #carousel-promotion .content .content-body .right span.special-text {
-  font-size: 10pt;
+  font-size: 11pt;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000374}}
 .row.promotion #carousel-promotion .content .content-footer {
-  margin-top: 5px;
+  margin-top: 11px;
   width: 100%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000377}}
 .row.promotion #carousel-promotion .content .content-footer span.special-text {
-  font-size: 10pt;
+  font-size: 11pt;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\0000383}}
 .row.promotion #carousel-promotion .images {
