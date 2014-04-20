@@ -124,7 +124,6 @@
           display: inline-block;
           background-repeat: no-repeat;
           background-size: auto auto;
-          background-image: url('../img/main_navigation/short-button.png');
           width: 127px;
           height: 75px;
           line-height: 115px;
@@ -133,18 +132,18 @@
 
           &.item {
             position: absolute;
-            $top: 315px;
+            $top: 382px;
             top: $top;
-            width: 121px;
-            height: 112px;
-            background-image: url('../img/main_navigation/high-button.png');
-            line-height: 175px;
+            width: 82px;
+            height: 42px;
+            background-image: url('../img/button.png');
+            line-height: 50px;
             &.item-clear {
-              left: 395px;
+              left: 460px;
             }
 
             &.item-submit {
-              left: 510px;
+              left: 543px;
             }
 
             &:hover {
