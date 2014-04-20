@@ -101,12 +101,20 @@
         border-radius: 30px / 20px;
 
         &.big {
-          height: 120px;
+          height: 110px;
+          margin-top: 5px;
         }
       }
 
+      input {
+        padding-top: 5px;
+        padding-left: 10px;
+      }
+
       textarea {
-        height: 115px;
+        height: 100px;
+        padding-top: 10px;
+        padding-left: 10px;
       }
 
       textarea:focus, input:focus {
