@@ -111,6 +111,16 @@ body p.text {
   word-wrap: break-word;
   line-height: 1.4em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000352}}
+body p.text span.special-text {
+  font-family: 'GulyesaScript';
+  color: #E34F26;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_layout\.scss}line{font-family:\0000358}}
+body .center {
+  text-align: center;
+  display: block;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_header\.scss}line{font-family:\000032}}
 .site-header .separator {
@@ -771,6 +781,241 @@ body p.text {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\000036}}
+.row.flowers .col-md-6.flowers {
+  width: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000310}}
+.row.flowers #carousel-flowers {
+  margin-top: 120px;
+  margin-left: 85px;
+  height: 393px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000371}}
+.row.flowers #carousel-flowers .item {
+  height: 393px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000375}}
+.row.flowers #carousel-flowers .item .text-block {
+  min-height: 23%;
+  max-height: 23%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000378}}
+.row.flowers #carousel-flowers .item .text-block span.title {
+  top: -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000381}}
+.row.flowers #carousel-flowers .item .text-block p.text {
+  line-height: 1.2em;
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000386}}
+.row.flowers #carousel-flowers .item .left {
+  display: inline-block;
+  height: 100%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000390}}
+.row.flowers #carousel-flowers .item .left.small {
+  width: 26.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000392}}
+.row.flowers #carousel-flowers .item .left.small .image-block {
+  display: block;
+  height: 23%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000326}}
+.row.flowers #carousel-flowers .item .left.small .image-block img {
+  display: block;
+  width: 89%;
+  height: 91%;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000334}}
+.row.flowers #carousel-flowers .item .left.small .image-block.bottom {
+  margin-top: 10px;
+  height: 34%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000337}}
+.row.flowers #carousel-flowers .item .left.small .image-block.bottom.below-text {
+  margin-top: 37px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000342}}
+.row.flowers #carousel-flowers .item .left.small .image-block.long {
+  height: 21.85%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000344}}
+.row.flowers #carousel-flowers .item .left.small .image-block.long img {
+  margin: 0px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000349}}
+.row.flowers #carousel-flowers .item .left.small .image-block.top {
+  margin-top: 18%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000397}}
+.row.flowers #carousel-flowers .item .left.big {
+  width: 29.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000399}}
+.row.flowers #carousel-flowers .item .left.big .image-block {
+  display: block;
+  height: 64%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+  margin-top: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000362}}
+.row.flowers #carousel-flowers .item .left.big .image-block img {
+  display: block;
+  width: 88%;
+  height: 96%;
+  margin: 0px 9px;
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003105}}
+.row.flowers #carousel-flowers .item .middle {
+  display: inline-block;
+  height: 100%;
+  float: left;
+  margin-left: 3.6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003110}}
+.row.flowers #carousel-flowers .item .middle.small {
+  width: 28%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003112}}
+.row.flowers #carousel-flowers .item .middle.small .image-block {
+  display: block;
+  height: 23%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000326}}
+.row.flowers #carousel-flowers .item .middle.small .image-block img {
+  display: block;
+  width: 89%;
+  height: 91%;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000334}}
+.row.flowers #carousel-flowers .item .middle.small .image-block.bottom {
+  margin-top: 10px;
+  height: 34%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000337}}
+.row.flowers #carousel-flowers .item .middle.small .image-block.bottom.below-text {
+  margin-top: 37px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000342}}
+.row.flowers #carousel-flowers .item .middle.small .image-block.long {
+  height: 21.85%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000344}}
+.row.flowers #carousel-flowers .item .middle.small .image-block.long img {
+  margin: 0px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000349}}
+.row.flowers #carousel-flowers .item .middle.small .image-block.top {
+  margin-top: 18%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003117}}
+.row.flowers #carousel-flowers .item .middle.big {
+  width: 25%;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003120}}
+.row.flowers #carousel-flowers .item .middle.big .image-block {
+  display: block;
+  height: 64%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+  margin-top: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000362}}
+.row.flowers #carousel-flowers .item .middle.big .image-block img {
+  display: block;
+  width: 88%;
+  height: 96%;
+  margin: 0px 9px;
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003126}}
+.row.flowers #carousel-flowers .item .right {
+  display: inline-block;
+  height: 100%;
+  float: left;
+  margin-left: 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003131}}
+.row.flowers #carousel-flowers .item .right.small {
+  width: 32%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003133}}
+.row.flowers #carousel-flowers .item .right.small .image-block {
+  display: block;
+  height: 23%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/landscape-frame.png");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000326}}
+.row.flowers #carousel-flowers .item .right.small .image-block img {
+  display: block;
+  width: 89%;
+  height: 91%;
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000334}}
+.row.flowers #carousel-flowers .item .right.small .image-block.bottom {
+  margin-top: 10px;
+  height: 34%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000337}}
+.row.flowers #carousel-flowers .item .right.small .image-block.bottom.below-text {
+  margin-top: 37px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000342}}
+.row.flowers #carousel-flowers .item .right.small .image-block.long {
+  height: 21.85%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000344}}
+.row.flowers #carousel-flowers .item .right.small .image-block.long img {
+  margin: 0px 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000349}}
+.row.flowers #carousel-flowers .item .right.small .image-block.top {
+  margin-top: 18%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003138}}
+.row.flowers #carousel-flowers .item .right.big {
+  width: 26.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\00003140}}
+.row.flowers #carousel-flowers .item .right.big .image-block {
+  display: block;
+  height: 64%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+  margin-top: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_flowers\.scss}line{font-family:\0000362}}
+.row.flowers #carousel-flowers .item .right.big .image-block img {
+  display: block;
+  width: 88%;
+  height: 96%;
+  margin: 0px 9px;
+  padding-top: 15px;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_main_gallery\.scss}line{font-family:\000031}}
 .row.gallery {
@@ -826,6 +1071,7 @@ body p.text {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_main_gallery\.scss}line{font-family:\0000341}}
 .row.gallery .col-md-6.gallery-body .gallery-content .gallery-text div.text-block .center span.title {
   font-size: 25pt;
+  position: inherit;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\000031}}
@@ -833,6 +1079,62 @@ body p.text {
   background-image: url("../img/news/background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\000036}}
+.row.news .col-md-6.news {
+  width: 66%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000310}}
+.row.news .news-list {
+  margin-top: 95px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000313}}
+.row.news .news-list .news-entry {
+  display: block;
+  width: 100%;
+  height: 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000319}}
+.row.news .news-list .news-entry.bottom {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000322}}
+.row.news .news-list .news-entry.bottom .news-content {
+  margin-top: -140px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000326}}
+.row.news .news-list .news-entry .news-content {
+  width: 60%;
+  float: right;
+  display: inline-block;
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000331}}
+.row.news .news-list .news-entry .news-content p.text {
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000335}}
+.row.news .news-list .news-entry .news-image {
+  width: 35%;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000338}}
+.row.news .news-list .news-entry .news-image .image-block {
+  display: block;
+  height: 124.8px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../img/portrait-frame.png");
+  margin-top: 13%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_news\.scss}line{font-family:\0000346}}
+.row.news .news-list .news-entry .news-image .image-block img {
+  display: block;
+  width: 91%;
+  height: 94%;
+  margin: 0px 9px;
+  padding-top: 9px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/quangquach\/Projects\/gachoa\/output\/theme\/css\/assets\/_promotion\.scss}line{font-family:\000031}}

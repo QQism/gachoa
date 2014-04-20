@@ -2,4 +2,146 @@
   background-image: url('../img/flowers/background.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
+  .col-md-6.flowers {
+    width: 65%;
+  }
+
+  #carousel-flowers {
+    $item-height: 393px;
+    $small-height: 23%;
+    $middle-height: 34%;
+    $big-height: 64%;
+    margin-top: 120px;
+    margin-left: 85px;
+    height: $item-height;
+
+    @mixin image-block-small($height:50%) {
+      display: block;
+      height: $height;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-image: url('../img/landscape-frame.png');
+
+      img {
+          display: block;
+          width: 89%;
+          height: 91%;
+          margin: 0px 10px;
+          padding-top: 10px;
+      }
+
+      &.bottom {
+        margin-top: 10px;
+        height: $middle-height;
+        &.below-text {
+          margin-top: 37px;
+        }
+      }
+
+      &.long {
+        height: $height * 0.95;
+        img {
+          margin: 0px 15px;
+        }
+      }
+
+      &.top {
+        margin-top: 18%;
+      }
+    }
+
+    @mixin image-block-big($height:100%) {
+      display: block;
+      height: $height;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-image: url('../img/portrait-frame.png');
+      margin-top: 13%;
+
+      img {
+          display: block;
+          width: 88%;
+          height: 96%;
+          margin: 0px 9px;
+          padding-top: 15px;
+      }
+    }
+
+    .item {
+      height: $item-height;
+
+
+      .text-block {
+        min-height: $small-height;
+        max-height: $small-height;
+        span.title {
+          top: -10px;
+        }
+        p.text {
+          line-height: 1.2em;
+          margin-left: 10px;
+        }
+      }
+      .left {
+        display: inline-block;
+        height: 100%;
+        float: left;
+        &.small {
+          width: 26.5%;
+          .image-block {
+            @include image-block-small($small-height);
+          }
+        }
+
+        &.big {
+          width: 29.5%;
+          .image-block {
+            @include image-block-big($big-height);
+          }
+        }
+      }
+
+      .middle {
+        display: inline-block;
+        height: 100%;
+        float: left;
+        margin-left: 3.6%;
+        &.small {
+          width: 28%;
+          .image-block {
+            @include image-block-small($small-height);
+          }
+        }
+
+        &.big {
+          width: 25%;
+          padding: 10px;
+          .image-block {
+            @include image-block-big($big-height);
+          }
+        }
+      }
+
+      .right {
+        display: inline-block;
+        height: 100%;
+        float: left;
+        margin-left: 5%;
+        &.small {
+          width: 32%;
+          .image-block {
+            @include image-block-small($small-height);
+          }
+        }
+
+        &.big {
+          width: 26.5%;
+          .image-block {
+            @include image-block-big($big-height);
+          }
+        }
+      }
+    }
+  }
 }
